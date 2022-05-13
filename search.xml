@@ -40,7 +40,7 @@
       <link href="/2022/05/12/musicTest/"/>
       <url>/2022/05/12/musicTest/</url>
       
-        <content type="html"><![CDATA[        <div id="aplayer-YaGflofZ" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content">词：王明明&李亚然曲：王明明明明：眼角闪起的泪光无边无际地游荡眉下的一记荒唐庸俗地写在脸上鑫然：犹如一缕阳光但却觉得感伤记忆挥散不去却藏进了我的诗句合：七月的风八月的雨卑微的我喜欢遥远的你你还未来怎敢老去未来的我和你奉陪到底你若同意我一定去可你并不在意我的出席你的过去无法参与但我还是喜欢你尚阳：我有一把钥匙能解开你的故事单纯的像个孩子偏藏进了我的诗句合：七月的风八月的雨卑微的我喜欢遥远的你你还未来怎敢老去未来的我和你奉陪到底你若同意我一定去可你并不在意我的出席你的过去无法参与但我还是喜欢你七月的风八月的雨卑微的我喜欢遥远的你你还未来怎敢老去未来的我和你奉陪到底你若同意我一定去可你并不在意我的出席你的过去无法参与但我还是喜欢你七月的风八月的雨</pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-YaGflofZ"),            narrow: false,            autoplay: false,            showlrc: 2,            music: {              title: "七月的风",              author: "沪",              url: "七月的风.mp3",              pic: "/2022/05/12/musicTest/wind.jpeg",              lrc: "wind.txt"            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p>test for aplayer</p>]]></content>
+        <content type="html"><![CDATA[        <div id="aplayer-ofMazKhA" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content">词：王明明&李亚然曲：王明明明明：眼角闪起的泪光无边无际地游荡眉下的一记荒唐庸俗地写在脸上鑫然：犹如一缕阳光但却觉得感伤记忆挥散不去却藏进了我的诗句合：七月的风八月的雨卑微的我喜欢遥远的你你还未来怎敢老去未来的我和你奉陪到底你若同意我一定去可你并不在意我的出席你的过去无法参与但我还是喜欢你尚阳：我有一把钥匙能解开你的故事单纯的像个孩子偏藏进了我的诗句合：七月的风八月的雨卑微的我喜欢遥远的你你还未来怎敢老去未来的我和你奉陪到底你若同意我一定去可你并不在意我的出席你的过去无法参与但我还是喜欢你七月的风八月的雨卑微的我喜欢遥远的你你还未来怎敢老去未来的我和你奉陪到底你若同意我一定去可你并不在意我的出席你的过去无法参与但我还是喜欢你七月的风八月的雨</pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-ofMazKhA"),            narrow: false,            autoplay: false,            showlrc: 2,            music: {              title: "七月的风",              author: "沪",              url: "七月的风.mp3",              pic: "/2022/05/12/musicTest/wind.jpeg",              lrc: "wind.txt"            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p>test for aplayer</p>]]></content>
       
       
       
@@ -93,25 +93,6 @@
     
     
     <entry>
-      <title>firstMd</title>
-      <link href="/2022/05/10/test/"/>
-      <url>/2022/05/10/test/</url>
-      
-        <content type="html"><![CDATA[<p>属于我的网站的第一个文件（test）</p><p>看到就代表success!!!</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 其他 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>叹</title>
       <link href="/2022/05/10/%E5%8F%B9/"/>
       <url>/2022/05/10/%E5%8F%B9/</url>
@@ -122,6 +103,25 @@
       <categories>
           
           <category> 随笔 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>firstMd</title>
+      <link href="/2022/05/10/test/"/>
+      <url>/2022/05/10/test/</url>
+      
+        <content type="html"><![CDATA[<p>属于我的网站的第一个文件（test）</p><p>看到就代表success!!!</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
           
       </categories>
       
