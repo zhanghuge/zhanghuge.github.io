@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>May-13</title>
+      <link href="/2022/05/13/May-13/"/>
+      <url>/2022/05/13/May-13/</url>
+      
+        <content type="html"><![CDATA[<p>在几天的“闲暇”时间，也是终于搭建出HugeZ,一个属于小生自己、不受平台约束的博客。</p><h3 id="搭建博客的过程"><a href="#搭建博客的过程" class="headerlink" title="搭建博客的过程"></a>搭建博客的过程</h3><p>​对于非专业的普通人，搭建博客网站最好的方式莫过于<strong>Hexo</strong>（<em>WordPress本人保持中立</em>），免费的同时，还拥有这便捷高效的优势，利用各种插件与主题，可以尽情的发挥想象，去搭建自己的Blog。再加上国际”最大的交友平台<strong>“GitHub</strong>自带的pages（<em>coding’s pages 最近刚刚无效，请想尝试的避雷</em>），直接可以把你的网站部署在他们的平台上。重点！<strong>免费</strong>相对于记录分享等个人博客，花大价钱去阿里云腾讯云等去买域名服务器等等设施，不花一分钱就可以拥有属于自己的网站，何乐而不为呢？</p><p>​目前网上的教程是在太多，可鱼龙混杂，更有的直接新日旧搬，牛腿不对马嘴。小生建议，搭建前尽量先把<a href="https://hexo.io/zh-cn/docs/">hexo使用指南</a>看完，然后再去搜索，至少可以避免浪费很多时间。接下来的过程大概就是：</p><blockquote><ol><li><p>下载node.js（<em>一般自带npm</em>）与git。（<em>这两个切记最新版</em>）</p><p>Node后期可能会遇到个别的插件Error需要降级，所以建议一开始安装时设置好版本</p></li></ol></blockquote><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">~ nvm install stable 安装最新版 node</span><br><span class="line">~ nvm install [node版本号] 安装指定版本的node</span><br><span class="line">~ nvm ls  查看已安装版本</span><br><span class="line">~ nvm use [node版本号] 切换到指定版本的node</span><br></pre></td></tr></table></figure><p><em>nvm的使用请可以参考<a href="https://github.com/creationix/nvm">https://github.com/creationix/nvm</a></em></p><blockquote><ol start="2"><li>注册git账号。(安利廖雪峰老师的<a href="www.liaoxuefeng.com">教程</a>)</li><li>安装Hexo.(这个在hexo手册上有，至于主题根据自己爱好选择，小生选择的是Butterfly)<br>[宝藏美化网站](<a href="https://butterfly.js.org/link/#%E7%B6%B2%E7%AB%99"> Butterfly</a>)真的是大佬云集，无论你选不选这个主题，都强烈推荐点进去看看，对日后自己的博客建设必有益处</li><li>部署到Github’s Pages，(这里同第二点)获得属于你的域名。</li><li>尽情想象……..的去布置</li></ol></blockquote><h3 id="搭建心得"><a href="#搭建心得" class="headerlink" title="搭建心得"></a>搭建心得</h3><p>​个人觉得博客应该属于现在后疫情时代的标配，不仅是互联网的发展，更是出行受限下信息资源共享节奏加快的一个Button，按下去，倘若打开了一个”神秘”世界。平日找了很久的资源触手可得，五湖四海的大佬云集，还有发展属于自己的“小屋”。记得以前高中最喜欢看“大冰的小屋”，里面有一句话说:对我们而言，音乐是羊，我们赶着羊，行吟在无垠的旷野上。旷野上什么都没有，哪怕路也没有，我们也要赶着羊，一直往前走。那博客就像我们的小羊，在未知的未来，无法想象这边草原会发生什么故事，可能没有前端后端的知识，路上坎坎碰碰，鄙人也想象不出我的小屋的未来，但“以梦为马”，还是值得的。</p><h3 id="未来规划"><a href="#未来规划" class="headerlink" title="未来规划"></a>未来规划</h3><p>​之前，双考惨败，自暴自弃，暴饮暴食，一片漆黑的在几个月的梦挣扎，面临着就业，迎接这毕业，四年名义上的法学课程结业，也在面包的压迫下去投简历、去面试，询问身边的朋友、同学和父母、老师，人生的有一个十字路口，我不知道怎么走，花了许久，思考、想象，是去北上广深找一个实习闯荡，还是回家乡在父母身边谋一份养家糊口的工作，亦或是…….</p><p>​现在，未来充满着不确定，而却没有足够的资格去选择去拥有去掌控自己想要的生活，那就<strong>二战</strong>，打一场半年的仗，输赢不论，为自己和自己喜欢的人拼一次。</p><h3 id="Blog概述"><a href="#Blog概述" class="headerlink" title="Blog概述"></a>Blog概述</h3><ul><li>站名由来：<a href="htttps://fan-hu.com.cn">fan-hu.com.cn</a>,由我名字的<strong>沪</strong>字与我女朋友的<strong>凡</strong>字组成</li><li>博客定位：学习、法律知识分享、生活记录、知识复盘、资源分享</li><li>…….</li></ul><h6 id="最后，如果浏览过程中有任何建议或者问题，可以在留言板留言或者主页添加小生的联系方式私信，看到会第一时间给出回复。希望大家多多支持，能够小屋的未来遇到更多志同道合的有趣的灵魂，也希望自己能够不忘初心，坚持下去。"><a href="#最后，如果浏览过程中有任何建议或者问题，可以在留言板留言或者主页添加小生的联系方式私信，看到会第一时间给出回复。希望大家多多支持，能够小屋的未来遇到更多志同道合的有趣的灵魂，也希望自己能够不忘初心，坚持下去。" class="headerlink" title="最后，如果浏览过程中有任何建议或者问题，可以在留言板留言或者主页添加小生的联系方式私信，看到会第一时间给出回复。希望大家多多支持，能够小屋的未来遇到更多志同道合的有趣的灵魂，也希望自己能够不忘初心，坚持下去。"></a>最后，如果浏览过程中有任何建议或者问题，可以在留言板留言或者主页添加小生的联系方式私信，看到会第一时间给出回复。希望大家多多支持，能够小屋的未来遇到更多志同道合的有趣的灵魂，也希望自己能够不忘初心，坚持下去。</h6><p>今日博客更新:</p><blockquote><p>pwa</p><blockquote><p> 用户可以添加你的博客到电脑 &#x2F; 手机的桌面，以原生应用般的方式浏览你的博客<br> 用户本地可以自动生成缓存，二次访问速度大大加快<br> 用户可以离线浏览你的博客<br> manifest.json一定要不仅要在根目录下有，还要在存放icon的地方复制一份<br> （控制台检查发现）<br> 运行速度变快，但是仍然存在Error（待解决）<br> coding双线部署serverless托管<br> 百度推送，百度收录</p></blockquote></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 其他 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2022/05/13/hello-world/"/>
       <url>/2022/05/13/hello-world/</url>
@@ -27,7 +46,7 @@
       <link href="/2022/05/12/May-12/"/>
       <url>/2022/05/12/May-12/</url>
       
-        <content type="html"><![CDATA[<blockquote><p>5:00 clock </p></blockquote><p>今日博客设置更新:</p><ul><li><p><input checked="" disabled="" type="checkbox"> 已经完成</p><blockquote><ol><li>修改默认文章封面（简单化）<ol start="2"><li>主页文章节选</li><li>文章置顶，相关文章，文章锚点</li><li>post-meta，复制版权信息</li><li>页脚透明</li><li>aplayer，描述换行</li></ol></li></ol></blockquote></li><li><p><input disabled="" type="checkbox"> 仍未完成的　　</p><blockquote><ol><li>ｐｗａ</li><li>域名备案</li></ol></blockquote></li></ul><p>今日Smartisan随记：</p><blockquote><p>8:38 好紧张………这次一定要过！突然发现，好久都没有这种感觉了，就像第一次跑马拉松，浑身颤抖在几千人的起点</p></blockquote><blockquote><p>10:50  科目二过了！一圈！完美！</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>5:00 clock </p></blockquote><p>今日博客设置更新:</p><ul><li><p><input checked="" disabled="" type="checkbox"> 已经完成</p><blockquote><ol><li>修改默认文章封面（简单化）<ol start="2"><li>主页文章节选</li><li>文章置顶，相关文章，文章锚点</li><li>post-meta，复制版权信息</li><li>页脚透明</li><li>aplayer，描述换行</li></ol></li></ol></blockquote></li><li><p><input disabled="" type="checkbox"> 仍未完成的　　</p><blockquote><ol><li>ｐｗａ</li><li>域名备案</li></ol></blockquote></li></ul>]]></content>
       
       
       
@@ -59,7 +78,7 @@
       <link href="/2022/05/11/May-11/"/>
       <url>/2022/05/11/May-11/</url>
       
-        <content type="html"><![CDATA[<blockquote><p>4:50 Clock</p></blockquote><p>今天终于不用熬夜了。</p><p>花了三天，属于我的第一个网站（博客）终于有了大致的雏形，个中种种现在回忆起来…一个配置或者格式、代码错误，恨不得把整个百度、CSDN等等搜索平台翻过来，最后可以run起来那还好，大部分还是重装重来才可以明白“因果”，这个过程大概只有经历过的才能明白。</p><p>明天9点还要出发去驾校补考科目二，哎。一定要过！</p><p>创立这个Blog，感觉就像在花市精心挑了一朵盆栽，想她盛开，想她芬芳</p><p>面包和诗，接下来便要为了前者开始规划法考和考研了，用这半年，不留余力</p><p>安~</p>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>4:50 Clock</p></blockquote><p>今天终于不用熬夜了。</p><p>花了三天，属于我的第一个网站（博客）终于有了大致的雏形，个中种种现在回忆起来…一个配置或者格式、代码错误，恨不得把整个百度、CSDN等等搜索平台翻过来，最后可以run起来那还好，大部分还是重装重来才可以明白“因果”，这个过程大概只有经历过的才能明白。</p><p>创立这个Blog，感觉就像在花市精心挑了一朵盆栽，想她盛开，想她芬芳</p><p>面包和诗，接下来便要为了前者开始规划法考和考研了，用这半年，不留余力</p><p>安~</p>]]></content>
       
       
       <categories>
