@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2022/05/13/hello-world/"/>
+      <url>/2022/05/13/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>May-12</title>
+      <link href="/2022/05/12/May-12/"/>
+      <url>/2022/05/12/May-12/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>5:00 clock </p></blockquote><p>今日博客设置更新:</p><ul><li><p><input checked="" disabled="" type="checkbox"> 已经完成</p><blockquote><ol><li>修改默认文章封面（简单化）<ol start="2"><li>主页文章节选</li><li>文章置顶，相关文章，文章锚点</li><li>post-meta，复制版权信息</li><li>页脚透明</li><li>aplayer，描述换行</li></ol></li></ol></blockquote></li><li><p><input disabled="" type="checkbox"> 仍未完成的　　</p><blockquote><ol><li>ｐｗａ</li><li>域名备案</li></ol></blockquote></li></ul><p>今日Smartisan随记：</p><blockquote><p>8:38 好紧张………这次一定要过！突然发现，好久都没有这种感觉了，就像第一次跑马拉松，浑身颤抖在几千人的起点</p></blockquote><blockquote><p>10:50  科目二过了！一圈！完美！</p></blockquote>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>musicTest</title>
+      <link href="/2022/05/12/musicTest/"/>
+      <url>/2022/05/12/musicTest/</url>
+      
+        <content type="html"><![CDATA[        <div id="aplayer-HPxNJzPH" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content">词：王明明&李亚然曲：王明明明明：眼角闪起的泪光无边无际地游荡眉下的一记荒唐庸俗地写在脸上鑫然：犹如一缕阳光但却觉得感伤记忆挥散不去却藏进了我的诗句合：七月的风八月的雨卑微的我喜欢遥远的你你还未来怎敢老去未来的我和你奉陪到底你若同意我一定去可你并不在意我的出席你的过去无法参与但我还是喜欢你尚阳：我有一把钥匙能解开你的故事单纯的像个孩子偏藏进了我的诗句合：七月的风八月的雨卑微的我喜欢遥远的你你还未来怎敢老去未来的我和你奉陪到底你若同意我一定去可你并不在意我的出席你的过去无法参与但我还是喜欢你七月的风八月的雨卑微的我喜欢遥远的你你还未来怎敢老去未来的我和你奉陪到底你若同意我一定去可你并不在意我的出席你的过去无法参与但我还是喜欢你七月的风八月的雨</pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-HPxNJzPH"),            narrow: false,            autoplay: false,            showlrc: 2,            music: {              title: "七月的风",              author: "沪",              url: "七月的风.mp3",              pic: "/2022/05/12/musicTest/wind.jpeg",              lrc: "wind.txt"            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p>test for aplayer</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 其他 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>May-11</title>
+      <link href="/2022/05/11/May-11/"/>
+      <url>/2022/05/11/May-11/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>4:50 Clock</p></blockquote><p>今天终于不用熬夜了。</p><p>花了三天，属于我的第一个网站（博客）终于有了大致的雏形，个中种种现在回忆起来…一个配置或者格式、代码错误，恨不得把整个百度、CSDN等等搜索平台翻过来，最后可以run起来那还好，大部分还是重装重来才可以明白“因果”，这个过程大概只有经历过的才能明白。</p><p>明天9点还要出发去驾校补考科目二，哎。一定要过！</p><p>创立这个Blog，感觉就像在花市精心挑了一朵盆栽，想她盛开，想她芬芳</p><p>面包和诗，接下来便要为了前者开始规划法考和考研了，用这半年，不留余力</p><p>安~</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活志 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>may-10</title>
+      <link href="/2022/05/10/May-10/"/>
+      <url>/2022/05/10/May-10/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>4:45起床</p></blockquote><p>又是在网站建设中（穿插着练车）度过了一天</p><blockquote><p>smartisan随记</p><blockquote><p>需掌握：yaml语法+JSON语法+gallery插件（butterfly）<br>版权信息和rss始终添加不成功<br>用着新软件，却看着老教程，无语<br>一定要备份文件，不然一个个的找那不明所以的bug是真的难受，最后换了一个主题，慢慢好起来了，本来今天能完成，估计又要拖一天了</p></blockquote></blockquote><p>继续加油，滴水穿石！</p><p>安 ~</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活志 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>firstMd</title>
+      <link href="/2022/05/10/test/"/>
+      <url>/2022/05/10/test/</url>
+      
+        <content type="html"><![CDATA[<p>属于我的网站的第一个文件（test）</p><p>看到就代表success!!!</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>叹</title>
+      <link href="/2022/05/10/%E5%8F%B9/"/>
+      <url>/2022/05/10/%E5%8F%B9/</url>
+      
+        <content type="html"><![CDATA[<p>旧人不知我近况<br>新人不知我过往<br>近况不该旧人知<br>过往不与新人讲</p><blockquote><p>看着这段话，无奈的叹了口气,多不想懂得这段话。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>5月9日</title>
+      <link href="/2022/05/09/May-9/"/>
+      <url>/2022/05/09/May-9/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>4:35 起床 </p></blockquote><p>​博客的第一篇，虽然创建这个博客，只花了一天半的时间，可是前面半个月的编程知识学习仍然提供了很大的帮助。由于现在已经很晚了，先把今天成功创立DIY博客的经验记录下来，以下只是一个大概，可以明白先后，细节日后再补充。（Win10）</p><ol><li><p>要按照最新的<strong>Git、Node</strong>和<strong>Heox</strong>,这些最好在官网下载，都是免费的。</p></li><li><p>git的基础功能可以自习廖雪峰老师或者菜鸟教程（特别适合小白打基础）；node打辅助，基本用不到；hexo基本命令也可以在官网找到。编辑器我用的是VScode和Notepad。</p></li><li><p>主要的过程我认为合理的顺序应该是（对于小白来说）先把github注册了，大概的操作掌握，使用自己的用户名+github.github.io作为库的名字，这也是每人唯一的可以用用户名创的共享库（eg:zhanghuge.github.io.git）然后我是在某云购买的比较便宜的域名，审核蛮快的，然后添加GitHub到你的域名解析，再在github-page中添加你的域名，记住取消https（需要证书，买不起）</p></li><li><p>最后再按照基本的hexo官网上的在电脑本地创建一个”xxx”博客文件夹把一些列操作完成，这里可以先不设置网上那些主题、配置和个性化，重要的是先把deploy和url设置好，这样hexo可以布置到github，github又已经改成你自己的域名，这样再去设置其他的，效率更高。</p></li><li><p>最后，每次更新博客的大致命令就是（在git bash&gt;你的博客目录路径下）</p><blockquote><p>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d（更改了主题）<br>hexo g &amp;&amp; hexo d（日常提交）<br>&amp;&amp;就是把两个命令合在一起</p></blockquote></li></ol><p>安~</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活志 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
