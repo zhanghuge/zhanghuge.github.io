@@ -1,1 +1,18 @@
-"use strict";function welcome(){var e="欢迎光顾hugeの小屋~";if(""!==document.referrer){var r=document.referrer.split("/")[2],e="欢迎你，来自"+r.toUpperCase()+"的用户！";if(r.toUpperCase()==document.domain.toUpperCase())return}swal({title:" 欢迎！",text:e+"\nPlease enjoy yourself",imageUrl:"img/pikachu.png",timer:2e3,showConfirmButton:!1})}$(document).ready(function(){welcome()});
+function welcome() {
+    let welcome_text = '欢迎光顾hugeの小屋~'
+    if (document.referrer !== '') {
+        let referrer = document.referrer.split("/")[2];
+        welcome_text = "欢迎你，来自" + referrer.toUpperCase() + "的用户！";
+        if (referrer.toUpperCase() == document.domain.toUpperCase()) return;
+    }
+    swal({
+        title: " 欢迎！",
+        text: welcome_text + '\nPlease enjoy yourself',
+        imageUrl: "img/pikachu.png",
+        timer: 2000,
+        showConfirmButton: false
+    });
+}
+$(document).ready(() => {
+    welcome()
+})

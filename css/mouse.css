@@ -1,1 +1,15 @@
-body{cursor:url(https://s2.loli.net/2022/05/14/P6QJ7Vm3LyZncFY.png),auto}.hide-block>.hide-button.open,.hide-inline>.hide-button.open{display:block}a,button,img,span{cursor:url(https://s2.loli.net/2022/05/14/8SUMvyptF5NiHaB.png),auto}
+body {
+    cursor: url(https://s2.loli.net/2022/05/14/P6QJ7Vm3LyZncFY.png), auto;
+}
+
+.hide-block>.hide-button.open,
+.hide-inline>.hide-button.open {
+    display: block;
+}
+
+a,
+button,
+span,
+img {
+    cursor: url(https://s2.loli.net/2022/05/14/8SUMvyptF5NiHaB.png), auto;
+}

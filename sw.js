@@ -1,1 +1,296 @@
-"use strict";function _typeof(e){return(_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}var precacheConfig=[["/2022/05/09/May-9/index.html","6d4392e598857e15e97a86e960117324"],["/2022/05/10/May-10/index.html","46975d25b9ea68165ae93d4b72552dca"],["/2022/05/10/test/index.html","b43e6aca05cae9f255220665b9533281"],["/2022/05/10/叹/index.html","bafcccf87d8e6deb18dd921f32135acd"],["/2022/05/11/May-11/index.html","e20975d978ddfa7735af1ad0abbdfa98"],["/2022/05/12/May-12/index.html","9af1b1912eba29fcd356356643375446"],["/2022/05/12/musicTest/index.html","bf81dea21978f87a62adf936a9225a31"],["/2022/05/13/May-13/cainiao.png","daefba254d995b3eef6e558c0f8e96f4"],["/2022/05/13/May-13/index.html","136cfe19509007691d16719a2d751813"],["/2022/05/13/May-13/me.png","1fbc61a836b13b82538ce7336a841cd9"],["/2022/05/13/hello-world/index.html","104fd26f3065e6fd3cd7b95003fb17e9"],["/2022/05/14/May-14/index.html","735a197402163f6b186384d12bdb5312"],["/2022/05/15/法考规划/index.html","2dd7b14599196c4bc87970507f6c924a"],["/2022/05/15/考研规划/index.html","03a939107e1473843b9622bb88b49206"],["/404.html","8a5a386bab543bf9c79eb7c24811d030"],["/archives/2022/05/index.html","a807c4f927f9648e01fa937e09ac0043"],["/archives/2022/05/page/2/index.html","b656a19fd079e3813e7c6c5b3de7f407"],["/archives/2022/index.html","6c64976d0a007790f27ae5dde1652c21"],["/archives/2022/page/2/index.html","9b6bcd494793baecf6b2fb678c853afd"],["/archives/index.html","daae98cc3a764c593ea96fce5a1e024a"],["/archives/page/2/index.html","0bfef50aeac3e15e6a59e05a05e0a4e8"],["/baidusitemap.xml","e927d58d5633876b08fd838cabeb83a2"],["/categories/index.html","144f8bfd50fcc588f93112fb331fe0c2"],["/categories/其他/index.html","d65aac0357e1201a4e3b3e7d45c97862"],["/categories/收藏库/index.html","5094c8b6cc13103827da55ec0e913695"],["/categories/法考/index.html","d9a11ccc2069e90fe824b996262d254f"],["/categories/生活志/index.html","ea25ec4538b20c460b0371338489dd49"],["/categories/考研/index.html","a7e22e5a50051719a789acf38dad3772"],["/css/beauty.css","e24c12c253c18d9affad9b87050eda8d"],["/css/font.css","ed7f952a129f9b3e6f8caca7e189ae7f"],["/css/index.css","3ab7cae07b359382f6f46bb792dd3de9"],["/css/mouse.css","ff68c6bb1d4b32b34d0800b68de04f85"],["/css/run.css","218f0cb351bebd9f386ab308ebbc61a1"],["/css/social.css","de8136de610c418891c82eda1a25f29a"],["/css/sweetalert.css","58e928a00e49d9ad090e7062f07c6076"],["/css/var.css","d41d8cd98f00b204e9800998ecf8427e"],["/img/123.png","a07ca62297ff179c48ca39709745429c"],["/img/124.png","6f1bd4798ef925153e7f08be4ba94568"],["/img/404.jpg","4ef3cfb882b6dd4128da4c8745e9a507"],["/img/404.png","d51accd19b80e7a4f2883a18dd0f309b"],["/img/back.jpg","0a9d6c4fe907baa92af82b9a05241ce3"],["/img/background.jpg","0a9d6c4fe907baa92af82b9a05241ce3"],["/img/book.png","709924742350ffd5526b57bdd8a124b0"],["/img/bookx.jpg","45dbc18e1ae8e93a9fd067f9b2d48a7b"],["/img/categories.jpg","ca36e607f450b7d8c7e0d02e79d32aa2"],["/img/category.jpg","b04c091f827e165878cdbe5108c54151"],["/img/foot.jpg","fba2e56597ebe3db3e1cd10acc7c7222"],["/img/friend_404.gif","68af0be9d22722e74665ef44dd532ba8"],["/img/juzi.jpg","9c941c893fe4c2b0f11cc9560ed4f481"],["/img/library.jpg","e03b07966763991f825494d97522831d"],["/img/libraryx.jpg","618a1e882488799ea2f82a45633cfcf5"],["/img/me.jpg","40daf11ad1dcc3e1d5fade166a516ea0"],["/img/mywexin.jpg","48c923df36e3b29b284ba0e7f141bb51"],["/img/noname.jpg","1c0fc470b937b4f270922f972df59663"],["/img/other.jpg","c41d51e2debe00a9d0632497feed7a68"],["/img/pen.jpg","effed599eafd6f9abe81b9793faf45c1"],["/img/pikachu.png","76f027c1d8ea2170cedd976017330331"],["/img/pwa/README.html","9f492fa2165b93971f9af7bd4ec01a9d"],["/img/pwa/android-chrome-144x144.png","203b1370c64759eecad6fb8e149894ac"],["/img/pwa/android-chrome-192x192.png","f423d2a6d9f51cd0d92526993a222bf0"],["/img/pwa/android-chrome-256x256.png","56b4b8611c59223519d3f093cbc780d3"],["/img/pwa/android-chrome-36x36.png","695c851264fa2ece1372aae970664f52"],["/img/pwa/android-chrome-48x48.png","ae5925a8c327d9fe7b662fde1113c032"],["/img/pwa/android-chrome-72x72.png","474c2a63d71e1b4f848a9b0752620492"],["/img/pwa/android-chrome-96x96.png","4cb9f8aba8be912b83b29134dd88c28c"],["/img/pwa/apple-touch-icon.png","b0cd00ac17081d2ad86b38b9d02aff6c"],["/img/pwa/browserconfig.xml","991eaa6b69b9f8e2ad4172881b6fa513"],["/img/pwa/favicon-16x16.png","41bea5a4f0b09f5b72f075c96024c0a8"],["/img/pwa/favicon-32x32.png","13f055e47a16e568d487a62310b1d956"],["/img/pwa/mstile-150x150.png","868c275ea45d13e5ec4d5cae45aa108f"],["/img/pwa/safari-pinned-tab.svg","0a69442ff107960a5692e071a98475f0"],["/img/qq.jpg","26404fda3249041f4d41669d92bda7a8"],["/img/room.jpg","cd1470265e235add33b2c046447b4f07"],["/img/tag.jpg","649a3cc3b89e364f156c9d6e9e2428f7"],["/img/tags.jpg","7116fe00901acd5232846178d5aaff82"],["/img/trouble.jpg","2bd93513d36a826ee477af34fd85a8a8"],["/img/wexin.jpg","f5ab91afeefa75da7776569513257f96"],["/img/zhifubao.jpg","cb3346a351b20bbb8674bb96851f6ac1"],["/img/微信.svg","0fc8d5050f7b2be755dd0ada471ef21d"],["/index.html","c4539e77def352dbe93e1b9b70af95fb"],["/js/choco.js","a363325dc1c1ef79c0caa0aed61f043d"],["/js/main.js","c2d6628801fd2dc0ea1739901cf5d99b"],["/js/move.js","d446b3b4f7616a4d085fd385fe3a51fa"],["/js/search/algolia.js","af567f93a5504310fe16fe368a4ee89e"],["/js/search/local-search.js","149fcc60c1de0a818e111978d01cbd87"],["/js/sweetalert.js","58ad886f69f1b6f9aa6d153daf656433"],["/js/tw_cn.js","b3810513e04b13b2d18c6b779c883f85"],["/js/utils.js","24971090b8b1bd5d3f538d414e270fd3"],["/js/welcome.js","6c0ceeb090908c17c9d011d85127dbef"],["/link/index.html","7a32aa6c87962a612df12bc9e627e181"],["/page/2/index.html","abe83ec38876b3bf287fdf0858ebeb2d"],["/page/3/index.html","434f3c7f892f913d970efd1721a2b4c3"],["/search.xml","c44e98844138b503b2ee8fc7cbe1b9f5"],["/service-worker.js","d4c2b533a59ca0c0e9f8d4b0c0fd936a"],["/sw-register.js","e1a330498e56096a6f70f15f48bf5353"],["/tags/index.html","d26585f51ae9cf4089bac9c4e8e25fda"],["/tags/其他/index.html","c52e98a88f05cf6bc6573136e5ec5716"],["/tags/好句/index.html","5319319ca9a2979f1f81f1530d3301d2"],["/tags/测试/index.html","96605132520a3e270b5350a8fa208658"],["/tags/规划/index.html","f29fdae9ec02f3b972905bc0254e6ac2"],["/tags/随笔/index.html","1ae3bdebe9ddd2badc9f83599a804b78"],["/workbox-b77dd8d1.js","d6d9675c6eb19126a2bbdbe81fd9ff6b"],["/法考/index.html","d6c96a2837b104bb1323dc16a642cffe"],["/留言板/index.html","a168458cfe2c6ea8a8ad37266f6e8a90"],["/编程/index.html","a681381853d4db4321f51f39a167184d"],["/考研/index.html","c86292b43774f3182c28d3751031639c"]],cacheName="sw-precache-v3--"+(self.registration?self.registration.scope:""),firstRegister=1,ignoreUrlParametersMatching=[/^utm_/],addDirectoryIndex=function(e,t){e=new URL(e);return"/"===e.pathname.slice(-1)&&(e.pathname+=t),e.toString()},cleanResponse=function(t){return t.redirected?("body"in t?Promise.resolve(t.body):t.blob()).then(function(e){return new Response(e,{headers:t.headers,status:t.status,statusText:t.statusText})}):Promise.resolve(t)},createCacheKey=function(e,t,n,r){e=new URL(e);return r&&e.pathname.match(r)||(e.search+=(e.search?"&":"")+encodeURIComponent(t)+"="+encodeURIComponent(n)),e.toString()},isPathWhitelisted=function(e,t){if(0===e.length)return!0;var n=new URL(t).pathname;return e.some(function(e){return n.match(e)})},stripIgnoredUrlParameters=function(e,n){e=new URL(e);return e.hash="",e.search=e.search.slice(1).split("&").map(function(e){return e.split("=")}).filter(function(t){return n.every(function(e){return!e.test(t[0])})}).map(function(e){return e.join("=")}).join("&"),e.toString()},addDirectoryIndex=function(e,t){e=new URL(e);return"/"===e.pathname.slice(-1)&&(e.pathname+=t),e.toString()},hashParamName="_sw-precache",urlsToCacheKeys=new Map(precacheConfig.map(function(e){var t=e[0],e=e[1],t=new URL(t,self.location),e=createCacheKey(t,hashParamName,e,!1);return[t.toString(),e]}));function setOfCachedUrls(e){return e.keys().then(function(e){return e&&0<e.length&&(firstRegister=0),e.map(function(e){return e.url})}).then(function(e){return new Set(e)})}self.addEventListener("install",function(e){e.waitUntil(caches.open(cacheName).then(function(r){return setOfCachedUrls(r).then(function(n){return Promise.all(Array.from(urlsToCacheKeys.values()).map(function(t){var e;if(!n.has(t))return e=new Request(t,{credentials:"same-origin"}),fetch(e).then(function(e){if(e.ok)return cleanResponse(e).then(function(e){return r.put(t,e)});throw new Error("Request for "+t+" returned a response with status "+e.status)})}))})}).then(function(){return self.skipWaiting()}))}),self.addEventListener("activate",function(e){var n=new Set(urlsToCacheKeys.values());e.waitUntil(caches.open(cacheName).then(function(t){return t.keys().then(function(e){return Promise.all(e.map(function(e){if(!n.has(e.url))return t.delete(e)}))})}).then(function(){return self.clients.claim()}).then(function(){if(!firstRegister)return self.clients.matchAll().then(function(e){e&&e.length&&e.forEach(function(e){e.postMessage("sw.update")})})}))}),self.addEventListener("fetch",function(t){var n,e,r;"GET"===t.request.method&&(n=stripIgnoredUrlParameters(t.request.url,ignoreUrlParametersMatching),r="index.html",(e=urlsToCacheKeys.has(n))||(n=addDirectoryIndex(n,r),e=urlsToCacheKeys.has(n)),e&&t.respondWith(caches.open(cacheName).then(function(e){return e.match(urlsToCacheKeys.get(n)).then(function(e){if(e)return e;throw Error("The cached response that was expected is missing.")})}).catch(function(e){return console.warn('Couldn\'t serve response for "%s" from cache: %O',t.request.url,e),fetch(t.request)})))}),function(e){"object"==("undefined"==typeof exports?"undefined":_typeof(exports))&&"undefined"!=typeof module?module.exports=e():"function"==typeof define&&define.amd?define([],e):("undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:this).toolbox=e()}(function(){return function r(a,c,o){function i(n,e){if(!c[n]){if(!a[n]){var t="function"==typeof require&&require;if(!e&&t)return t(n,!0);if(s)return s(n,!0);e=new Error("Cannot find module '"+n+"'");throw e.code="MODULE_NOT_FOUND",e}t=c[n]={exports:{}};a[n][0].call(t.exports,function(e){var t=a[n][1][e];return i(t||e)},t,t.exports,r,a,c,o)}return c[n].exports}for(var s="function"==typeof require&&require,e=0;e<o.length;e++)i(o[e]);return i}({1:[function(e,t,n){function i(e,t){((t=t||{}).debug||s.debug)&&console.log("[sw-toolbox] "+e)}function c(e){var t=(t=e&&e.cache?e.cache.name:t)||s.cache.name;return caches.open(t)}function r(e){var t=Array.isArray(e);if(t&&e.forEach(function(e){"string"==typeof e||e instanceof Request||(t=!1)}),t)return e;throw new TypeError("The precache method expects either an array of strings and/or Requests or a Promise that resolves to an array of strings and/or Requests.")}var o,s=e("./options"),f=e("./idb-cache-expiration");t.exports={debug:i,fetchAndCache:function(r,a){var t=(a=a||{}).successResponses||s.successResponses;return fetch(r.clone()).then(function(e){return"GET"===r.method&&t.test(e.status)&&c(a).then(function(n){n.put(r,e).then(function(){var e,t=a.cache||s.cache;(t.maxEntries||t.maxAgeSeconds)&&t.name&&(e=function(e,t,n){var r=e.url,a=n.maxAgeSeconds,c=n.maxEntries,e=n.name,o=Date.now();return i("Updating LRU order for "+r+". Max entries is "+c+", max age is "+a),f.getDb(e).then(function(e){return f.setTimestampForUrl(e,r,o)}).then(function(e){return f.expireEntries(e,c,a,o)}).then(function(e){i("Successfully updated IDB.");e=e.map(function(e){return t.delete(e)});return Promise.all(e).then(function(){i("Done with cache cleanup.")})}).catch(function(e){i(e)})}.bind(null,e=r,n,t),o=o?o.then(e):e())})}),e.clone()})},openCache:c,renameCache:function(t,e,n){return i("Renaming cache: ["+t+"] to ["+e+"]",n),caches.delete(e).then(function(){return Promise.all([caches.open(t),caches.open(e)]).then(function(e){var n=e[0],r=e[1];return n.keys().then(function(e){return Promise.all(e.map(function(t){return n.match(t).then(function(e){return r.put(t,e)})}))}).then(function(){return caches.delete(t)})})})},cache:function(t,e){return c(e).then(function(e){return e.add(t)})},uncache:function(t,e){return c(e).then(function(e){return e.delete(t)})},precache:function(e){e instanceof Promise||r(e),s.preCacheItems=s.preCacheItems.concat(e)},validatePrecacheInput:r,isResponseFresh:function(e,t,n){if(!e)return!1;if(t){e=e.headers.get("date");if(e)if(new Date(e).getTime()+1e3*t<n)return!1}return!0}}},{"./idb-cache-expiration":2,"./options":4}],2:[function(e,t,n){var a="sw-toolbox-",c=1,f="store",u="url",d="timestamp",o={};t.exports={getDb:function(e){return e in o||(o[e]=(r=e,new Promise(function(e,t){var n=indexedDB.open(a+r,c);n.onupgradeneeded=function(){n.result.createObjectStore(f,{keyPath:u}).createIndex(d,d,{unique:!1})},n.onsuccess=function(){e(n.result)},n.onerror=function(){t(n.error)}}))),o[e];var r},setTimestampForUrl:function(r,a,c){return new Promise(function(e,t){var n=r.transaction(f,"readwrite");n.objectStore(f).put({url:a,timestamp:c}),n.oncomplete=function(){e(r)},n.onabort=function(){t(n.error)}})},expireEntries:function(e,n,t,r){return o=e,s=r,((i=t)?new Promise(function(e,t){var n=1e3*i,r=[],a=o.transaction(f,"readwrite"),c=a.objectStore(f);c.index(d).openCursor().onsuccess=function(e){var t,e=e.target.result;e&&s-n>e.value[d]&&(t=e.value[u],r.push(t),c.delete(t),e.continue())},a.oncomplete=function(){e(r)},a.onabort=t}):Promise.resolve([])).then(function(t){return i=e,((s=n)?new Promise(function(e,t){var r=[],n=i.transaction(f,"readwrite"),a=n.objectStore(f),c=a.index(d),o=c.count();c.count().onsuccess=function(){var n=o.result;s<n&&(c.openCursor().onsuccess=function(e){var t,e=e.target.result;e&&(t=e.value[u],r.push(t),a.delete(t),n-r.length>s&&e.continue())})},n.oncomplete=function(){e(r)},n.onabort=t}):Promise.resolve([])).then(function(e){return t.concat(e)});var i,s});var o,i,s}}},{}],3:[function(e,t,n){function r(e){return e.reduce(function(e,t){return e.concat(t)},[])}e("serviceworker-cache-polyfill");var a=e("./helpers"),c=e("./router"),o=e("./options");t.exports={fetchListener:function(e){var t=c.match(e.request);t?e.respondWith(t(e.request)):c.default&&"GET"===e.request.method&&0===e.request.url.indexOf("http")&&e.respondWith(c.default(e.request))},activateListener:function(e){a.debug("activate event fired");var t=o.cache.name+"$$$inactive$$$";e.waitUntil(a.renameCache(t,o.cache.name))},installListener:function(e){var t=o.cache.name+"$$$inactive$$$";a.debug("install event fired"),a.debug("creating cache ["+t+"]"),e.waitUntil(a.openCache({cache:{name:t}}).then(function(t){return Promise.all(o.preCacheItems).then(r).then(a.validatePrecacheInput).then(function(e){return a.debug("preCache list: "+(e.join(", ")||"(none)")),t.addAll(e)})}))}}},{"./helpers":1,"./options":4,"./router":6,"serviceworker-cache-polyfill":16}],4:[function(e,t,n){var r=self.registration?self.registration.scope:self.scope||new URL("./",self.location).href;t.exports={cache:{name:"$$$toolbox-cache$$$"+r+"$$$",maxAgeSeconds:null,maxEntries:null},debug:!1,networkTimeoutSeconds:null,preCacheItems:[],successResponses:/^0|([123]\d\d)|(40[14567])|410$/}},{}],5:[function(e,t,n){function r(e,t,n,r){t instanceof RegExp?this.fullUrlRegExp=t:(0!==t.indexOf("/")&&(t=a+t),this.keys=[],this.regexp=c(t,this.keys)),this.method=e,this.options=r,this.handler=n}var a=new URL("./",self.location).pathname,c=e("path-to-regexp");r.prototype.makeHandler=function(e){var n,r;return this.regexp&&(n=this.regexp.exec(e),r={},this.keys.forEach(function(e,t){r[e.name]=n[t+1]})),function(e){return this.handler(e,r,this.options)}.bind(this)},t.exports=r},{"path-to-regexp":15}],6:[function(e,t,n){function c(e,t){for(var n=e.entries(),r=n.next(),a=[];!r.done;)new RegExp(r.value[0]).test(t)&&a.push(r.value[1]),r=n.next();return a}function a(){this.routes=new Map,this.routes.set(RegExp,new Map),this.default=null}var o=e("./route"),i=e("./helpers");["get","post","put","delete","head","any"].forEach(function(r){a.prototype[r]=function(e,t,n){return this.add(r,e,t,n)}}),a.prototype.add=function(e,t,n,r){r=r||{},a=t instanceof RegExp?RegExp:(a=r.origin||self.location.origin)instanceof RegExp?a.source:a.replace(/[-\/\\^$*+?.()|[\]{}]/g,"\\$&"),e=e.toLowerCase();var n=new o(e,t,n,r),r=(this.routes.has(a)||this.routes.set(a,new Map),this.routes.get(a)),a=(r.has(e)||r.set(e,new Map),r.get(e)),r=n.regexp||n.fullUrlRegExp;a.has(r.source)&&i.debug('"'+t+'" resolves to same regex as existing route.'),a.set(r.source,n)},a.prototype.matchMethod=function(e,t){var n=new URL(t),r=n.origin,n=n.pathname;return this._match(e,c(this.routes,r),n)||this._match(e,[this.routes.get(RegExp)],t)},a.prototype._match=function(e,t,n){if(0===t.length)return null;for(var r=0;r<t.length;r++){var a=t[r],a=a&&a.get(e.toLowerCase());if(a){a=c(a,n);if(0<a.length)return a[0].makeHandler(n)}}return null},a.prototype.match=function(e){return this.matchMethod(e.method,e.url)||this.matchMethod("any",e.url)},t.exports=new a},{"./helpers":1,"./route":5}],7:[function(e,t,n){var c=e("../options"),o=e("../helpers");t.exports=function(r,e,a){return a=a||{},o.debug("Strategy: cache first ["+r.url+"]",a),o.openCache(a).then(function(e){return e.match(r).then(function(e){var t=a.cache||c.cache,n=Date.now();return o.isResponseFresh(e,t.maxAgeSeconds,n)?e:o.fetchAndCache(r,a)})})}},{"../helpers":1,"../options":4}],8:[function(e,t,n){var a=e("../options"),c=e("../helpers");t.exports=function(t,e,r){return r=r||{},c.debug("Strategy: cache only ["+t.url+"]",r),c.openCache(r).then(function(e){return e.match(t).then(function(e){var t=r.cache||a.cache,n=Date.now();if(c.isResponseFresh(e,t.maxAgeSeconds,n))return e})})}},{"../helpers":1,"../options":4}],9:[function(e,t,n){var f=e("../helpers"),u=e("./cacheOnly");t.exports=function(o,i,s){return f.debug("Strategy: fastest ["+o.url+"]",s),new Promise(function(t,n){function e(e){e instanceof Response?t(e):c("No result returned")}var r=!1,a=[],c=function(e){a.push(e.toString()),r?n(new Error('Both cache and network failed: "'+a.join('", "')+'"')):r=!0};f.fetchAndCache(o.clone(),s).then(e,c),u(o,i,s).then(e,c)})}},{"../helpers":1,"./cacheOnly":8}],10:[function(e,t,n){t.exports={networkOnly:e("./networkOnly"),networkFirst:e("./networkFirst"),cacheOnly:e("./cacheOnly"),cacheFirst:e("./cacheFirst"),fastest:e("./fastest")}},{"./cacheFirst":7,"./cacheOnly":8,"./fastest":9,"./networkFirst":11,"./networkOnly":12}],11:[function(e,t,n){var f=e("../options"),u=e("../helpers");t.exports=function(c,e,o){var i=(o=o||{}).successResponses||f.successResponses,s=o.networkTimeoutSeconds||f.networkTimeoutSeconds;return u.debug("Strategy: network first ["+c.url+"]",o),u.openCache(o).then(function(e){var t,n,r=[],a=(s&&(a=new Promise(function(r){t=setTimeout(function(){e.match(c).then(function(e){var t=o.cache||f.cache,n=Date.now(),t=t.maxAgeSeconds;u.isResponseFresh(e,t,n)&&r(e)})},1e3*s)}),r.push(a)),u.fetchAndCache(c,o).then(function(e){if(t&&clearTimeout(t),i.test(e.status))return e;throw u.debug("Response was an HTTP error: "+e.statusText,o),n=e,new Error("Bad response")}).catch(function(t){return u.debug("Network or response error, fallback to cache ["+c.url+"]",o),e.match(c).then(function(e){if(e)return e;if(n)return n;throw t})}));return r.push(a),Promise.race(r)})}},{"../helpers":1,"../options":4}],12:[function(e,t,n){var r=e("../helpers");t.exports=function(e,t,n){return r.debug("Strategy: network only ["+e.url+"]",n),fetch(e)}},{"../helpers":1}],13:[function(e,t,n){var r=e("./options"),a=e("./router"),c=e("./helpers"),o=e("./strategies"),e=e("./listeners");c.debug("Service Worker Toolbox is loading"),self.addEventListener("install",e.installListener),self.addEventListener("activate",e.activateListener),self.addEventListener("fetch",e.fetchListener),t.exports={networkOnly:o.networkOnly,networkFirst:o.networkFirst,cacheOnly:o.cacheOnly,cacheFirst:o.cacheFirst,fastest:o.fastest,router:a,options:r,cache:c.cache,uncache:c.uncache,precache:c.precache}},{"./helpers":1,"./listeners":3,"./options":4,"./router":6,"./strategies":10}],14:[function(e,t,n){t.exports=Array.isArray||function(e){return"[object Array]"==Object.prototype.toString.call(e)}},{}],15:[function(e,t,n){function h(e,t){for(var n=[],r=0,a=0,c="",o=t&&t.delimiter||"/";null!=(d=v.exec(e));){var i,s,f,u,d,h=d[0],l=d[1],p=d.index;c+=e.slice(a,p),a=p+h.length,l?c+=l[1]:(p=e[a],h=d[2],l=d[3],i=d[4],s=d[5],f=d[6],u=d[7],c&&(n.push(c),c=""),d=d[2]||o,n.push({name:l||r++,prefix:h||"",delimiter:d,optional:"?"===f||"*"===f,repeat:"+"===f||"*"===f,partial:null!=h&&null!=p&&p!==h,asterisk:!!u,pattern:(l=i||s)?l.replace(/([=!:$\/()])/g,"\\$1"):u?".*":"[^"+m(d)+"]+?"}))}return a<e.length&&(c+=e.substr(a)),c&&n.push(c),n}function l(e){return encodeURI(e).replace(/[\/?#]/g,function(e){return"%"+e.charCodeAt(0).toString(16).toUpperCase()})}function r(u){for(var d=new Array(u.length),e=0;e<u.length;e++)"object"==_typeof(u[e])&&(d[e]=new RegExp("^(?:"+u[e].pattern+")$"));return function(e,t){for(var n="",r=e||{},a=(t||{}).pretty?l:encodeURIComponent,c=0;c<u.length;c++){var o=u[c];if("string"!=typeof o){var i,s=r[o.name];if(null==s){if(o.optional){o.partial&&(n+=o.prefix);continue}throw new TypeError('Expected "'+o.name+'" to be defined')}if(w(s)){if(!o.repeat)throw new TypeError('Expected "'+o.name+'" to not repeat, but received `'+JSON.stringify(s)+"`");if(0===s.length){if(o.optional)continue;throw new TypeError('Expected "'+o.name+'" to not be empty')}for(var f=0;f<s.length;f++){if(i=a(s[f]),!d[c].test(i))throw new TypeError('Expected all "'+o.name+'" to match "'+o.pattern+'", but received `'+JSON.stringify(i)+"`");n+=(0===f?o.prefix:o.delimiter)+i}}else{if(i=o.asterisk?encodeURI(s).replace(/[?#]/g,function(e){return"%"+e.charCodeAt(0).toString(16).toUpperCase()}):a(s),!d[c].test(i))throw new TypeError('Expected "'+o.name+'" to match "'+o.pattern+'", but received "'+i+'"');n+=o.prefix+i}}else n+=o}return n}}function m(e){return e.replace(/([.+*?=^!:${}()[\]|\/\\])/g,"\\$1")}function p(e,t){return e.keys=t,e}function b(e){return e.sensitive?"":"i"}function g(e,t,n){w(t)||(n=t||n,t=[]);for(var r=(n=n||{}).strict,a=!1!==n.end,c="",o=0;o<e.length;o++){var i,s,f=e[o];"string"==typeof f?c+=m(f):(i=m(f.prefix),s="(?:"+f.pattern+")",t.push(f),f.repeat&&(s+="(?:"+i+s+")*"),c+=s=f.optional?f.partial?i+"("+s+")?":"(?:"+i+"("+s+"))?":i+"("+s+")")}var u=m(n.delimiter||"/"),d=c.slice(-u.length)===u;return r||(c=(d?c.slice(0,-u.length):c)+"(?:"+u+"(?=$))?"),c+=a?"$":r&&d?"":"(?="+u+"|$)",p(new RegExp("^"+c,b(n)),t)}function x(e,t,n){if(w(t)||(n=t||n,t=[]),n=n||{},e instanceof RegExp){var r=e,a=t,c=r.source.match(/\((?!\?)/g);if(c)for(var o=0;o<c.length;o++)a.push({name:o,prefix:null,delimiter:null,optional:!1,repeat:!1,partial:!1,asterisk:!1,pattern:null});return p(r,a)}if(w(e)){for(var i=e,s=t,f=n,u=[],d=0;d<i.length;d++)u.push(x(i[d],s,f).source);return p(new RegExp("(?:"+u.join("|")+")",b(f)),s)}return r=t,g(h(e,t=n),r,t)}var w=e("isarray"),v=(t.exports=x,t.exports.parse=h,t.exports.compile=function(e,t){return r(h(e,t))},t.exports.tokensToFunction=r,t.exports.tokensToRegExp=g,new RegExp(["(\\\\.)","([\\/.])?(?:(?:\\:(\\w+)(?:\\(((?:\\\\.|[^\\\\()])+)\\))?|\\(((?:\\\\.|[^\\\\()])+)\\))([+*?])?|(\\*))"].join("|"),"g"))},{isarray:14}],16:[function(e,t,n){var r,a,c,o;c=Cache.prototype.addAll,(o=navigator.userAgent.match(/(Firefox|Chrome)\/(\d+\.)/))&&(r=o[1],a=parseInt(o[2])),c&&(!o||"Firefox"===r&&46<=a||"Chrome"===r&&50<=a)||(Cache.prototype.addAll=function(n){function r(e){this.name="NetworkError",this.code=19,this.message=e}var a=this;return r.prototype=Object.create(Error.prototype),Promise.resolve().then(function(){if(arguments.length<1)throw new TypeError;return n=n.map(function(e){return e instanceof Request?e:String(e)}),Promise.all(n.map(function(e){"string"==typeof e&&(e=new Request(e));var t=new URL(e.url).protocol;if("http:"!==t&&"https:"!==t)throw new r("Invalid scheme");return fetch(e.clone())}))}).then(function(e){if(e.some(function(e){return!e.ok}))throw new r("Incorrect response status");return Promise.all(e.map(function(e,t){return a.put(n[t],e)}))}).then(function(){})},Cache.prototype.add=function(e){return this.addAll([e])})},{}]},{},[13])(13)}),toolbox.router.get("/*",toolbox.cacheFirst,{origin:"unpkg.com"}),toolbox.router.get("/*",toolbox.cacheFirst,{origin:"cdn.jsdelivr.net"});
+/**
+ * 自动引入模板，在原有 sw-precache 插件默认模板基础上做的二次开发
+ *
+ * 因为是自定导入的模板，项目一旦生成，不支持随 sw-precache 的版本自动升级。
+ * 可以到 Lavas 官网下载 basic 模板内获取最新模板进行替换
+ *
+ */
+
+/* eslint-disable */
+
+'use strict';
+
+var precacheConfig = [["/2022/05/09/May-9/index.html","5d555c19795697a7b3c6c253c7819240"],["/2022/05/10/May-10/index.html","4f54526357d05a72b7270bc274f6329c"],["/2022/05/10/test/index.html","756e359e50d37d2a2be097bb9ded40d1"],["/2022/05/10/叹/index.html","8f0a43938455a5e56a26ee659dde4a19"],["/2022/05/11/May-11/index.html","7a6533358fa7af4e5bac5e76d579d7f1"],["/2022/05/12/May-12/index.html","7732f4ff9cd6c74874dba19ed392197f"],["/2022/05/12/测试/index.html","30db1af4f1570fdecadf1c3ac174aa55"],["/2022/05/13/May-13/cainiao.png","daefba254d995b3eef6e558c0f8e96f4"],["/2022/05/13/May-13/index.html","393f36b436b4f7fb0886b29fb57f6ee4"],["/2022/05/13/May-13/me.png","1fbc61a836b13b82538ce7336a841cd9"],["/2022/05/13/hello-world/index.html","39ff1ba6b37b8669162dc7ccc5ce54cd"],["/2022/05/14/May-14/index.html","c3b0be3e9b5d32227e740e487b0057d7"],["/2022/05/15/法考规划/index.html","9b3075f382858106fd4946a9ae0771d7"],["/2022/05/15/考研规划/index.html","d4b480d43d7dca2edd3ef4ab94905305"],["/404.html","47ed521c65aa18978ed93cfeff6e6657"],["/archives/2022/05/index.html","ea4cd7227574b47ee9cc665774c929ec"],["/archives/2022/05/page/2/index.html","d299db125a2da688fd3316dd02590098"],["/archives/2022/index.html","891335269b8ff878aa6e4e06bd683376"],["/archives/2022/page/2/index.html","226fb0c67574c1418c887cbd91d0b0a6"],["/archives/index.html","d25e657d0bcf3c68fa38ea3aed8baf7e"],["/archives/page/2/index.html","40e47bea0fb33951fc4876bf5fba2bdc"],["/baidusitemap.xml","6e8b2dbe1d697866b34943eb7944345d"],["/categories/index.html","e9ac5a4d4d41631a5796116ed28386f2"],["/categories/其他/index.html","a209916941699b3b4292010fdcf2e774"],["/categories/收藏库/index.html","5fa1aa3f6adfc0bae968c32a3e3a2d35"],["/categories/法考/index.html","38c65139e72b11c52a04d6d0a095f836"],["/categories/生活志/index.html","656830e998e0f00fd029cf4f947fa391"],["/categories/考研/index.html","67235a74b7c5ca117a90c83bbb7a96d6"],["/css/beauty.css","e24c12c253c18d9affad9b87050eda8d"],["/css/font.css","ed7f952a129f9b3e6f8caca7e189ae7f"],["/css/index.css","3ab7cae07b359382f6f46bb792dd3de9"],["/css/main.css","d819f638a3ecaa9719ee4fc4cf389e91"],["/css/mouse.css","ff68c6bb1d4b32b34d0800b68de04f85"],["/css/run.css","218f0cb351bebd9f386ab308ebbc61a1"],["/css/social.css","de8136de610c418891c82eda1a25f29a"],["/css/sweetalert.css","58e928a00e49d9ad090e7062f07c6076"],["/css/swiper-bundle.min.css","3f7ce984926f486b0ba36437cccf163c"],["/css/var.css","d41d8cd98f00b204e9800998ecf8427e"],["/img/123.png","a07ca62297ff179c48ca39709745429c"],["/img/124.png","6f1bd4798ef925153e7f08be4ba94568"],["/img/404.jpg","4ef3cfb882b6dd4128da4c8745e9a507"],["/img/404.png","d51accd19b80e7a4f2883a18dd0f309b"],["/img/back.jpg","0a9d6c4fe907baa92af82b9a05241ce3"],["/img/background.jpg","0a9d6c4fe907baa92af82b9a05241ce3"],["/img/book.png","709924742350ffd5526b57bdd8a124b0"],["/img/bookx.jpg","45dbc18e1ae8e93a9fd067f9b2d48a7b"],["/img/categories.jpg","ca36e607f450b7d8c7e0d02e79d32aa2"],["/img/category.jpg","b04c091f827e165878cdbe5108c54151"],["/img/foot.jpg","fba2e56597ebe3db3e1cd10acc7c7222"],["/img/friend_404.gif","68af0be9d22722e74665ef44dd532ba8"],["/img/juzi.jpg","9c941c893fe4c2b0f11cc9560ed4f481"],["/img/library.jpg","e03b07966763991f825494d97522831d"],["/img/libraryx.jpg","618a1e882488799ea2f82a45633cfcf5"],["/img/me.jpg","40daf11ad1dcc3e1d5fade166a516ea0"],["/img/mywexin.jpg","48c923df36e3b29b284ba0e7f141bb51"],["/img/noname.jpg","1c0fc470b937b4f270922f972df59663"],["/img/other.jpg","c41d51e2debe00a9d0632497feed7a68"],["/img/pen.jpg","effed599eafd6f9abe81b9793faf45c1"],["/img/pikachu.png","76f027c1d8ea2170cedd976017330331"],["/img/pwa/README.html","11e3ee68c74092acea9d272a9cd708c6"],["/img/pwa/android-chrome-144x144.png","203b1370c64759eecad6fb8e149894ac"],["/img/pwa/android-chrome-192x192.png","f423d2a6d9f51cd0d92526993a222bf0"],["/img/pwa/android-chrome-256x256.png","56b4b8611c59223519d3f093cbc780d3"],["/img/pwa/android-chrome-36x36.png","695c851264fa2ece1372aae970664f52"],["/img/pwa/android-chrome-48x48.png","ae5925a8c327d9fe7b662fde1113c032"],["/img/pwa/android-chrome-72x72.png","474c2a63d71e1b4f848a9b0752620492"],["/img/pwa/android-chrome-96x96.png","4cb9f8aba8be912b83b29134dd88c28c"],["/img/pwa/apple-touch-icon.png","b0cd00ac17081d2ad86b38b9d02aff6c"],["/img/pwa/browserconfig.xml","991eaa6b69b9f8e2ad4172881b6fa513"],["/img/pwa/favicon-16x16.png","41bea5a4f0b09f5b72f075c96024c0a8"],["/img/pwa/favicon-32x32.png","13f055e47a16e568d487a62310b1d956"],["/img/pwa/mstile-150x150.png","868c275ea45d13e5ec4d5cae45aa108f"],["/img/pwa/safari-pinned-tab.svg","0a69442ff107960a5692e071a98475f0"],["/img/qq.jpg","26404fda3249041f4d41669d92bda7a8"],["/img/room.jpg","cd1470265e235add33b2c046447b4f07"],["/img/tag.jpg","649a3cc3b89e364f156c9d6e9e2428f7"],["/img/tags.jpg","7116fe00901acd5232846178d5aaff82"],["/img/trouble.jpg","2bd93513d36a826ee477af34fd85a8a8"],["/img/wexin.jpg","f5ab91afeefa75da7776569513257f96"],["/img/zhifubao.jpg","cb3346a351b20bbb8674bb96851f6ac1"],["/img/微信.svg","0fc8d5050f7b2be755dd0ada471ef21d"],["/index.html","751fa74747954e7dd7160e08b0a80009"],["/js/choco.js","a363325dc1c1ef79c0caa0aed61f043d"],["/js/main.js","c2d6628801fd2dc0ea1739901cf5d99b"],["/js/mainx.js","c5a8e962743bca7a2fb6a019fdcc62c0"],["/js/move.js","d446b3b4f7616a4d085fd385fe3a51fa"],["/js/search/algolia.js","af567f93a5504310fe16fe368a4ee89e"],["/js/search/local-search.js","149fcc60c1de0a818e111978d01cbd87"],["/js/sweetalert.js","58ad886f69f1b6f9aa6d153daf656433"],["/js/swiper-bundle.min.js","dbcd929ea1493d3ff2f6491fd9515ce2"],["/js/tw_cn.js","b3810513e04b13b2d18c6b779c883f85"],["/js/utils.js","24971090b8b1bd5d3f538d414e270fd3"],["/js/welcome.js","6c0ceeb090908c17c9d011d85127dbef"],["/link/index.html","e46852633745893c7ee9885c23ccabad"],["/page/2/index.html","8ace5d88b64fb024e021efcffd6b1669"],["/page/3/index.html","a0b9a43d9c055056cb8d971ecbd73619"],["/search.xml","fa08ec12ddb418f6bf4d531446126cc9"],["/service-worker.js","1c5f14dd4315b1663551322c84dc79bb"],["/sw-register.js","996a6f9afeeac101ae5e7eafe65284f8"],["/tags/index.html","388507ba9f19e9a0596d63d3cbc6ff62"],["/tags/其他/index.html","e31185ecabc685d8e555331e20ac1e8e"],["/tags/好句/index.html","5b8a8c93a8cda7fcfdee969fed05da6e"],["/tags/测试/index.html","8997329f267d48404f716b658a13eb1f"],["/tags/规划/index.html","e28f6e04119800cf0374f34c6f113231"],["/tags/随笔/index.html","1cf9992830fead9e90f22a487c9218ed"],["/workbox-b77dd8d1.js","d6d9675c6eb19126a2bbdbe81fd9ff6b"],["/法考/index.html","1ee72eb2d75f0f638c86e8aa09af6c6a"],["/留言板/index.html","d7eaf57102b989d4a487d7e0d5418213"],["/编程/index.html","585f0b6ebd888f5e67eb490337bc17c7"],["/考研/index.html","cd54911a2705b6f1fbcf7e1b5dba6267"]];
+var cacheName = 'sw-precache-v3--' + (self.registration ? self.registration.scope : '');
+var firstRegister = 1; // 默认1是首次安装SW， 0是SW更新
+
+
+var ignoreUrlParametersMatching = [/^utm_/];
+
+
+var addDirectoryIndex = function (originalUrl, index) {
+    var url = new URL(originalUrl);
+    if (url.pathname.slice(-1) === '/') {
+        url.pathname += index;
+    }
+    return url.toString();
+};
+
+var cleanResponse = function (originalResponse) {
+    // 如果没有重定向响应，不需干啥
+    if (!originalResponse.redirected) {
+        return Promise.resolve(originalResponse);
+    }
+
+    // Firefox 50 及以下不知处 Response.body 流, 所以我们需要读取整个body以blob形式返回。
+    var bodyPromise = 'body' in originalResponse ?
+        Promise.resolve(originalResponse.body) :
+        originalResponse.blob();
+
+    return bodyPromise.then(function (body) {
+        // new Response() 可同时支持 stream or Blob.
+        return new Response(body, {
+            headers: originalResponse.headers,
+            status: originalResponse.status,
+            statusText: originalResponse.statusText
+        });
+    });
+};
+
+var createCacheKey = function (originalUrl, paramName, paramValue,
+    dontCacheBustUrlsMatching) {
+
+    // 创建一个新的URL对象，避免影响原始URL
+    var url = new URL(originalUrl);
+
+    // 如果 dontCacheBustUrlsMatching 值没有设置，或是没有匹配到，将值拼接到url.serach后
+    if (!dontCacheBustUrlsMatching ||
+        !(url.pathname.match(dontCacheBustUrlsMatching))) {
+        url.search += (url.search ? '&' : '') +
+            encodeURIComponent(paramName) + '=' + encodeURIComponent(paramValue);
+    }
+
+    return url.toString();
+};
+
+var isPathWhitelisted = function (whitelist, absoluteUrlString) {
+    // 如果 whitelist 是空数组，则认为全部都在白名单内
+    if (whitelist.length === 0) {
+        return true;
+    }
+
+    // 否则逐个匹配正则匹配并返回
+    var path = (new URL(absoluteUrlString)).pathname;
+    return whitelist.some(function (whitelistedPathRegex) {
+        return path.match(whitelistedPathRegex);
+    });
+};
+
+var stripIgnoredUrlParameters = function (originalUrl,
+    ignoreUrlParametersMatching) {
+    var url = new URL(originalUrl);
+    // 移除 hash; 查看 https://github.com/GoogleChrome/sw-precache/issues/290
+    url.hash = '';
+
+    url.search = url.search.slice(1) // 是否包含 '?'
+        .split('&') // 分割成数组 'key=value' 的形式
+        .map(function (kv) {
+            return kv.split('='); // 分割每个 'key=value' 字符串成 [key, value] 形式
+        })
+        .filter(function (kv) {
+            return ignoreUrlParametersMatching.every(function (ignoredRegex) {
+                return !ignoredRegex.test(kv[0]); // 如果 key 没有匹配到任何忽略参数正则，就 Return true
+            });
+        })
+        .map(function (kv) {
+            return kv.join('='); // 重新把 [key, value] 格式转换为 'key=value' 字符串
+        })
+        .join('&'); // 将所有参数 'key=value' 以 '&' 拼接
+
+    return url.toString();
+};
+
+
+var addDirectoryIndex = function (originalUrl, index) {
+    var url = new URL(originalUrl);
+    if (url.pathname.slice(-1) === '/') {
+        url.pathname += index;
+    }
+    return url.toString();
+};
+
+var hashParamName = '_sw-precache';
+var urlsToCacheKeys = new Map(
+    precacheConfig.map(function (item) {
+        var relativeUrl = item[0];
+        var hash = item[1];
+        var absoluteUrl = new URL(relativeUrl, self.location);
+        var cacheKey = createCacheKey(absoluteUrl, hashParamName, hash, false);
+        return [absoluteUrl.toString(), cacheKey];
+    })
+);
+
+function setOfCachedUrls(cache) {
+    return cache.keys().then(function (requests) {
+        // 如果原cacheName中没有缓存任何收，就默认是首次安装，否则认为是SW更新
+        if (requests && requests.length > 0) {
+            firstRegister = 0; // SW更新
+        }
+        return requests.map(function (request) {
+            return request.url;
+        });
+    }).then(function (urls) {
+        return new Set(urls);
+    });
+}
+
+self.addEventListener('install', function (event) {
+    event.waitUntil(
+        caches.open(cacheName).then(function (cache) {
+            return setOfCachedUrls(cache).then(function (cachedUrls) {
+                return Promise.all(
+                    Array.from(urlsToCacheKeys.values()).map(function (cacheKey) {
+                        // 如果缓存中没有匹配到cacheKey，添加进去
+                        if (!cachedUrls.has(cacheKey)) {
+                            var request = new Request(cacheKey, { credentials: 'same-origin' });
+                            return fetch(request).then(function (response) {
+                                // 只要返回200才能继续，否则直接抛错
+                                if (!response.ok) {
+                                    throw new Error('Request for ' + cacheKey + ' returned a ' +
+                                        'response with status ' + response.status);
+                                }
+
+                                return cleanResponse(response).then(function (responseToCache) {
+                                    return cache.put(cacheKey, responseToCache);
+                                });
+                            });
+                        }
+                    })
+                );
+            });
+        })
+            .then(function () {
+            
+            // 强制 SW 状态 installing -> activate
+            return self.skipWaiting();
+            
+        })
+    );
+});
+
+self.addEventListener('activate', function (event) {
+    var setOfExpectedUrls = new Set(urlsToCacheKeys.values());
+
+    event.waitUntil(
+        caches.open(cacheName).then(function (cache) {
+            return cache.keys().then(function (existingRequests) {
+                return Promise.all(
+                    existingRequests.map(function (existingRequest) {
+                        // 删除原缓存中相同键值内容
+                        if (!setOfExpectedUrls.has(existingRequest.url)) {
+                            return cache.delete(existingRequest);
+                        }
+                    })
+                );
+            });
+        }).then(function () {
+            
+            return self.clients.claim();
+            
+        }).then(function () {
+                // 如果是首次安装 SW 时, 不发送更新消息（是否是首次安装，通过指定cacheName 中是否有缓存信息判断）
+                // 如果不是首次安装，则是内容有更新，需要通知页面重载更新
+                if (!firstRegister) {
+                    return self.clients.matchAll()
+                        .then(function (clients) {
+                            if (clients && clients.length) {
+                                clients.forEach(function (client) {
+                                    client.postMessage('sw.update');
+                                })
+                            }
+                        })
+                }
+            })
+    );
+});
+
+
+
+    self.addEventListener('fetch', function (event) {
+        if (event.request.method === 'GET') {
+
+            // 是否应该 event.respondWith()，需要我们逐步的判断
+            // 而且也方便了后期做特殊的特殊
+            var shouldRespond;
+
+
+            // 首先去除已配置的忽略参数及hash
+            // 查看缓存简直中是否包含该请求，包含就将shouldRespond 设为true
+            var url = stripIgnoredUrlParameters(event.request.url, ignoreUrlParametersMatching);
+            shouldRespond = urlsToCacheKeys.has(url);
+
+            // 如果 shouldRespond 是 false, 我们在url后默认增加 'index.html'
+            // (或者是你在配置文件中自行配置的 directoryIndex 参数值)，继续查找缓存列表
+            var directoryIndex = 'index.html';
+            if (!shouldRespond && directoryIndex) {
+                url = addDirectoryIndex(url, directoryIndex);
+                shouldRespond = urlsToCacheKeys.has(url);
+            }
+
+            // 如果 shouldRespond 仍是 false，检查是否是navigation
+            // request， 如果是的话，判断是否能与 navigateFallbackWhitelist 正则列表匹配
+            var navigateFallback = '';
+            if (!shouldRespond &&
+                navigateFallback &&
+                (event.request.mode === 'navigate') &&
+                isPathWhitelisted([], event.request.url)
+            ) {
+                url = new URL(navigateFallback, self.location).toString();
+                shouldRespond = urlsToCacheKeys.has(url);
+            }
+
+            // 如果 shouldRespond 被置为 true
+            // 则 event.respondWith()匹配缓存返回结果，匹配不成就直接请求.
+            if (shouldRespond) {
+                event.respondWith(
+                    caches.open(cacheName).then(function (cache) {
+                        return cache.match(urlsToCacheKeys.get(url)).then(function (response) {
+                            if (response) {
+                                return response;
+                            }
+                            throw Error('The cached response that was expected is missing.');
+                        });
+                    }).catch(function (e) {
+                        // 如果捕获到异常错误，直接返回 fetch() 请求资源
+                        console.warn('Couldn\'t serve response for "%s" from cache: %O', event.request.url, e);
+                        return fetch(event.request);
+                    })
+                );
+            }
+        }
+    });
+
+
+
+// *** Start of auto-included sw-toolbox code. ***
+/* 
+ Copyright 2016 Google Inc. All Rights Reserved.
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+*/!function(e){if("object"==typeof exports&&"undefined"!=typeof module)module.exports=e();else if("function"==typeof define&&define.amd)define([],e);else{var t;t="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:this,t.toolbox=e()}}(function(){return function e(t,n,r){function o(c,s){if(!n[c]){if(!t[c]){var a="function"==typeof require&&require;if(!s&&a)return a(c,!0);if(i)return i(c,!0);var u=new Error("Cannot find module '"+c+"'");throw u.code="MODULE_NOT_FOUND",u}var f=n[c]={exports:{}};t[c][0].call(f.exports,function(e){var n=t[c][1][e];return o(n?n:e)},f,f.exports,e,t,n,r)}return n[c].exports}for(var i="function"==typeof require&&require,c=0;c<r.length;c++)o(r[c]);return o}({1:[function(e,t,n){"use strict";function r(e,t){t=t||{};var n=t.debug||m.debug;n&&console.log("[sw-toolbox] "+e)}function o(e){var t;return e&&e.cache&&(t=e.cache.name),t=t||m.cache.name,caches.open(t)}function i(e,t){t=t||{};var n=t.successResponses||m.successResponses;return fetch(e.clone()).then(function(r){return"GET"===e.method&&n.test(r.status)&&o(t).then(function(n){n.put(e,r).then(function(){var r=t.cache||m.cache;(r.maxEntries||r.maxAgeSeconds)&&r.name&&c(e,n,r)})}),r.clone()})}function c(e,t,n){var r=s.bind(null,e,t,n);d=d?d.then(r):r()}function s(e,t,n){var o=e.url,i=n.maxAgeSeconds,c=n.maxEntries,s=n.name,a=Date.now();return r("Updating LRU order for "+o+". Max entries is "+c+", max age is "+i),g.getDb(s).then(function(e){return g.setTimestampForUrl(e,o,a)}).then(function(e){return g.expireEntries(e,c,i,a)}).then(function(e){r("Successfully updated IDB.");var n=e.map(function(e){return t.delete(e)});return Promise.all(n).then(function(){r("Done with cache cleanup.")})}).catch(function(e){r(e)})}function a(e,t,n){return r("Renaming cache: ["+e+"] to ["+t+"]",n),caches.delete(t).then(function(){return Promise.all([caches.open(e),caches.open(t)]).then(function(t){var n=t[0],r=t[1];return n.keys().then(function(e){return Promise.all(e.map(function(e){return n.match(e).then(function(t){return r.put(e,t)})}))}).then(function(){return caches.delete(e)})})})}function u(e,t){return o(t).then(function(t){return t.add(e)})}function f(e,t){return o(t).then(function(t){return t.delete(e)})}function h(e){e instanceof Promise||p(e),m.preCacheItems=m.preCacheItems.concat(e)}function p(e){var t=Array.isArray(e);if(t&&e.forEach(function(e){"string"==typeof e||e instanceof Request||(t=!1)}),!t)throw new TypeError("The precache method expects either an array of strings and/or Requests or a Promise that resolves to an array of strings and/or Requests.");return e}function l(e,t,n){if(!e)return!1;if(t){var r=e.headers.get("date");if(r){var o=new Date(r);if(o.getTime()+1e3*t<n)return!1}}return!0}var d,m=e("./options"),g=e("./idb-cache-expiration");t.exports={debug:r,fetchAndCache:i,openCache:o,renameCache:a,cache:u,uncache:f,precache:h,validatePrecacheInput:p,isResponseFresh:l}},{"./idb-cache-expiration":2,"./options":4}],2:[function(e,t,n){"use strict";function r(e){return new Promise(function(t,n){var r=indexedDB.open(u+e,f);r.onupgradeneeded=function(){var e=r.result.createObjectStore(h,{keyPath:p});e.createIndex(l,l,{unique:!1})},r.onsuccess=function(){t(r.result)},r.onerror=function(){n(r.error)}})}function o(e){return e in d||(d[e]=r(e)),d[e]}function i(e,t,n){return new Promise(function(r,o){var i=e.transaction(h,"readwrite"),c=i.objectStore(h);c.put({url:t,timestamp:n}),i.oncomplete=function(){r(e)},i.onabort=function(){o(i.error)}})}function c(e,t,n){return t?new Promise(function(r,o){var i=1e3*t,c=[],s=e.transaction(h,"readwrite"),a=s.objectStore(h),u=a.index(l);u.openCursor().onsuccess=function(e){var t=e.target.result;if(t&&n-i>t.value[l]){var r=t.value[p];c.push(r),a.delete(r),t.continue()}},s.oncomplete=function(){r(c)},s.onabort=o}):Promise.resolve([])}function s(e,t){return t?new Promise(function(n,r){var o=[],i=e.transaction(h,"readwrite"),c=i.objectStore(h),s=c.index(l),a=s.count();s.count().onsuccess=function(){var e=a.result;e>t&&(s.openCursor().onsuccess=function(n){var r=n.target.result;if(r){var i=r.value[p];o.push(i),c.delete(i),e-o.length>t&&r.continue()}})},i.oncomplete=function(){n(o)},i.onabort=r}):Promise.resolve([])}function a(e,t,n,r){return c(e,n,r).then(function(n){return s(e,t).then(function(e){return n.concat(e)})})}var u="sw-toolbox-",f=1,h="store",p="url",l="timestamp",d={};t.exports={getDb:o,setTimestampForUrl:i,expireEntries:a}},{}],3:[function(e,t,n){"use strict";function r(e){var t=a.match(e.request);t?e.respondWith(t(e.request)):a.default&&"GET"===e.request.method&&0===e.request.url.indexOf("http")&&e.respondWith(a.default(e.request))}function o(e){s.debug("activate event fired");var t=u.cache.name+"$$$inactive$$$";e.waitUntil(s.renameCache(t,u.cache.name))}function i(e){return e.reduce(function(e,t){return e.concat(t)},[])}function c(e){var t=u.cache.name+"$$$inactive$$$";s.debug("install event fired"),s.debug("creating cache ["+t+"]"),e.waitUntil(s.openCache({cache:{name:t}}).then(function(e){return Promise.all(u.preCacheItems).then(i).then(s.validatePrecacheInput).then(function(t){return s.debug("preCache list: "+(t.join(", ")||"(none)")),e.addAll(t)})}))}e("serviceworker-cache-polyfill");var s=e("./helpers"),a=e("./router"),u=e("./options");t.exports={fetchListener:r,activateListener:o,installListener:c}},{"./helpers":1,"./options":4,"./router":6,"serviceworker-cache-polyfill":16}],4:[function(e,t,n){"use strict";var r;r=self.registration?self.registration.scope:self.scope||new URL("./",self.location).href,t.exports={cache:{name:"$$$toolbox-cache$$$"+r+"$$$",maxAgeSeconds:null,maxEntries:null},debug:!1,networkTimeoutSeconds:null,preCacheItems:[],successResponses:/^0|([123]\d\d)|(40[14567])|410$/}},{}],5:[function(e,t,n){"use strict";var r=new URL("./",self.location),o=r.pathname,i=e("path-to-regexp"),c=function(e,t,n,r){t instanceof RegExp?this.fullUrlRegExp=t:(0!==t.indexOf("/")&&(t=o+t),this.keys=[],this.regexp=i(t,this.keys)),this.method=e,this.options=r,this.handler=n};c.prototype.makeHandler=function(e){var t;if(this.regexp){var n=this.regexp.exec(e);t={},this.keys.forEach(function(e,r){t[e.name]=n[r+1]})}return function(e){return this.handler(e,t,this.options)}.bind(this)},t.exports=c},{"path-to-regexp":15}],6:[function(e,t,n){"use strict";function r(e){return e.replace(/[-\/\\^$*+?.()|[\]{}]/g,"\\$&")}var o=e("./route"),i=e("./helpers"),c=function(e,t){for(var n=e.entries(),r=n.next(),o=[];!r.done;){var i=new RegExp(r.value[0]);i.test(t)&&o.push(r.value[1]),r=n.next()}return o},s=function(){this.routes=new Map,this.routes.set(RegExp,new Map),this.default=null};["get","post","put","delete","head","any"].forEach(function(e){s.prototype[e]=function(t,n,r){return this.add(e,t,n,r)}}),s.prototype.add=function(e,t,n,c){c=c||{};var s;t instanceof RegExp?s=RegExp:(s=c.origin||self.location.origin,s=s instanceof RegExp?s.source:r(s)),e=e.toLowerCase();var a=new o(e,t,n,c);this.routes.has(s)||this.routes.set(s,new Map);var u=this.routes.get(s);u.has(e)||u.set(e,new Map);var f=u.get(e),h=a.regexp||a.fullUrlRegExp;f.has(h.source)&&i.debug('"'+t+'" resolves to same regex as existing route.'),f.set(h.source,a)},s.prototype.matchMethod=function(e,t){var n=new URL(t),r=n.origin,o=n.pathname;return this._match(e,c(this.routes,r),o)||this._match(e,[this.routes.get(RegExp)],t)},s.prototype._match=function(e,t,n){if(0===t.length)return null;for(var r=0;r<t.length;r++){var o=t[r],i=o&&o.get(e.toLowerCase());if(i){var s=c(i,n);if(s.length>0)return s[0].makeHandler(n)}}return null},s.prototype.match=function(e){return this.matchMethod(e.method,e.url)||this.matchMethod("any",e.url)},t.exports=new s},{"./helpers":1,"./route":5}],7:[function(e,t,n){"use strict";function r(e,t,n){return n=n||{},i.debug("Strategy: cache first ["+e.url+"]",n),i.openCache(n).then(function(t){return t.match(e).then(function(t){var r=n.cache||o.cache,c=Date.now();return i.isResponseFresh(t,r.maxAgeSeconds,c)?t:i.fetchAndCache(e,n)})})}var o=e("../options"),i=e("../helpers");t.exports=r},{"../helpers":1,"../options":4}],8:[function(e,t,n){"use strict";function r(e,t,n){return n=n||{},i.debug("Strategy: cache only ["+e.url+"]",n),i.openCache(n).then(function(t){return t.match(e).then(function(e){var t=n.cache||o.cache,r=Date.now();if(i.isResponseFresh(e,t.maxAgeSeconds,r))return e})})}var o=e("../options"),i=e("../helpers");t.exports=r},{"../helpers":1,"../options":4}],9:[function(e,t,n){"use strict";function r(e,t,n){return o.debug("Strategy: fastest ["+e.url+"]",n),new Promise(function(r,c){var s=!1,a=[],u=function(e){a.push(e.toString()),s?c(new Error('Both cache and network failed: "'+a.join('", "')+'"')):s=!0},f=function(e){e instanceof Response?r(e):u("No result returned")};o.fetchAndCache(e.clone(),n).then(f,u),i(e,t,n).then(f,u)})}var o=e("../helpers"),i=e("./cacheOnly");t.exports=r},{"../helpers":1,"./cacheOnly":8}],10:[function(e,t,n){t.exports={networkOnly:e("./networkOnly"),networkFirst:e("./networkFirst"),cacheOnly:e("./cacheOnly"),cacheFirst:e("./cacheFirst"),fastest:e("./fastest")}},{"./cacheFirst":7,"./cacheOnly":8,"./fastest":9,"./networkFirst":11,"./networkOnly":12}],11:[function(e,t,n){"use strict";function r(e,t,n){n=n||{};var r=n.successResponses||o.successResponses,c=n.networkTimeoutSeconds||o.networkTimeoutSeconds;return i.debug("Strategy: network first ["+e.url+"]",n),i.openCache(n).then(function(t){var s,a,u=[];if(c){var f=new Promise(function(r){s=setTimeout(function(){t.match(e).then(function(e){var t=n.cache||o.cache,c=Date.now(),s=t.maxAgeSeconds;i.isResponseFresh(e,s,c)&&r(e)})},1e3*c)});u.push(f)}var h=i.fetchAndCache(e,n).then(function(e){if(s&&clearTimeout(s),r.test(e.status))return e;throw i.debug("Response was an HTTP error: "+e.statusText,n),a=e,new Error("Bad response")}).catch(function(r){return i.debug("Network or response error, fallback to cache ["+e.url+"]",n),t.match(e).then(function(e){if(e)return e;if(a)return a;throw r})});return u.push(h),Promise.race(u)})}var o=e("../options"),i=e("../helpers");t.exports=r},{"../helpers":1,"../options":4}],12:[function(e,t,n){"use strict";function r(e,t,n){return o.debug("Strategy: network only ["+e.url+"]",n),fetch(e)}var o=e("../helpers");t.exports=r},{"../helpers":1}],13:[function(e,t,n){"use strict";var r=e("./options"),o=e("./router"),i=e("./helpers"),c=e("./strategies"),s=e("./listeners");i.debug("Service Worker Toolbox is loading"),self.addEventListener("install",s.installListener),self.addEventListener("activate",s.activateListener),self.addEventListener("fetch",s.fetchListener),t.exports={networkOnly:c.networkOnly,networkFirst:c.networkFirst,cacheOnly:c.cacheOnly,cacheFirst:c.cacheFirst,fastest:c.fastest,router:o,options:r,cache:i.cache,uncache:i.uncache,precache:i.precache}},{"./helpers":1,"./listeners":3,"./options":4,"./router":6,"./strategies":10}],14:[function(e,t,n){t.exports=Array.isArray||function(e){return"[object Array]"==Object.prototype.toString.call(e)}},{}],15:[function(e,t,n){function r(e,t){for(var n,r=[],o=0,i=0,c="",s=t&&t.delimiter||"/";null!=(n=x.exec(e));){var f=n[0],h=n[1],p=n.index;if(c+=e.slice(i,p),i=p+f.length,h)c+=h[1];else{var l=e[i],d=n[2],m=n[3],g=n[4],v=n[5],w=n[6],y=n[7];c&&(r.push(c),c="");var b=null!=d&&null!=l&&l!==d,E="+"===w||"*"===w,R="?"===w||"*"===w,k=n[2]||s,$=g||v;r.push({name:m||o++,prefix:d||"",delimiter:k,optional:R,repeat:E,partial:b,asterisk:!!y,pattern:$?u($):y?".*":"[^"+a(k)+"]+?"})}}return i<e.length&&(c+=e.substr(i)),c&&r.push(c),r}function o(e,t){return s(r(e,t))}function i(e){return encodeURI(e).replace(/[\/?#]/g,function(e){return"%"+e.charCodeAt(0).toString(16).toUpperCase()})}function c(e){return encodeURI(e).replace(/[?#]/g,function(e){return"%"+e.charCodeAt(0).toString(16).toUpperCase()})}function s(e){for(var t=new Array(e.length),n=0;n<e.length;n++)"object"==typeof e[n]&&(t[n]=new RegExp("^(?:"+e[n].pattern+")$"));return function(n,r){for(var o="",s=n||{},a=r||{},u=a.pretty?i:encodeURIComponent,f=0;f<e.length;f++){var h=e[f];if("string"!=typeof h){var p,l=s[h.name];if(null==l){if(h.optional){h.partial&&(o+=h.prefix);continue}throw new TypeError('Expected "'+h.name+'" to be defined')}if(v(l)){if(!h.repeat)throw new TypeError('Expected "'+h.name+'" to not repeat, but received `'+JSON.stringify(l)+"`");if(0===l.length){if(h.optional)continue;throw new TypeError('Expected "'+h.name+'" to not be empty')}for(var d=0;d<l.length;d++){if(p=u(l[d]),!t[f].test(p))throw new TypeError('Expected all "'+h.name+'" to match "'+h.pattern+'", but received `'+JSON.stringify(p)+"`");o+=(0===d?h.prefix:h.delimiter)+p}}else{if(p=h.asterisk?c(l):u(l),!t[f].test(p))throw new TypeError('Expected "'+h.name+'" to match "'+h.pattern+'", but received "'+p+'"');o+=h.prefix+p}}else o+=h}return o}}function a(e){return e.replace(/([.+*?=^!:${}()[\]|\/\\])/g,"\\$1")}function u(e){return e.replace(/([=!:$\/()])/g,"\\$1")}function f(e,t){return e.keys=t,e}function h(e){return e.sensitive?"":"i"}function p(e,t){var n=e.source.match(/\((?!\?)/g);if(n)for(var r=0;r<n.length;r++)t.push({name:r,prefix:null,delimiter:null,optional:!1,repeat:!1,partial:!1,asterisk:!1,pattern:null});return f(e,t)}function l(e,t,n){for(var r=[],o=0;o<e.length;o++)r.push(g(e[o],t,n).source);var i=new RegExp("(?:"+r.join("|")+")",h(n));return f(i,t)}function d(e,t,n){return m(r(e,n),t,n)}function m(e,t,n){v(t)||(n=t||n,t=[]),n=n||{};for(var r=n.strict,o=n.end!==!1,i="",c=0;c<e.length;c++){var s=e[c];if("string"==typeof s)i+=a(s);else{var u=a(s.prefix),p="(?:"+s.pattern+")";t.push(s),s.repeat&&(p+="(?:"+u+p+")*"),p=s.optional?s.partial?u+"("+p+")?":"(?:"+u+"("+p+"))?":u+"("+p+")",i+=p}}var l=a(n.delimiter||"/"),d=i.slice(-l.length)===l;return r||(i=(d?i.slice(0,-l.length):i)+"(?:"+l+"(?=$))?"),i+=o?"$":r&&d?"":"(?="+l+"|$)",f(new RegExp("^"+i,h(n)),t)}function g(e,t,n){return v(t)||(n=t||n,t=[]),n=n||{},e instanceof RegExp?p(e,t):v(e)?l(e,t,n):d(e,t,n)}var v=e("isarray");t.exports=g,t.exports.parse=r,t.exports.compile=o,t.exports.tokensToFunction=s,t.exports.tokensToRegExp=m;var x=new RegExp(["(\\\\.)","([\\/.])?(?:(?:\\:(\\w+)(?:\\(((?:\\\\.|[^\\\\()])+)\\))?|\\(((?:\\\\.|[^\\\\()])+)\\))([+*?])?|(\\*))"].join("|"),"g")},{isarray:14}],16:[function(e,t,n){!function(){var e=Cache.prototype.addAll,t=navigator.userAgent.match(/(Firefox|Chrome)\/(\d+\.)/);if(t)var n=t[1],r=parseInt(t[2]);e&&(!t||"Firefox"===n&&r>=46||"Chrome"===n&&r>=50)||(Cache.prototype.addAll=function(e){function t(e){this.name="NetworkError",this.code=19,this.message=e}var n=this;return t.prototype=Object.create(Error.prototype),Promise.resolve().then(function(){if(arguments.length<1)throw new TypeError;return e=e.map(function(e){return e instanceof Request?e:String(e)}),Promise.all(e.map(function(e){"string"==typeof e&&(e=new Request(e));var n=new URL(e.url).protocol;if("http:"!==n&&"https:"!==n)throw new t("Invalid scheme");return fetch(e.clone())}))}).then(function(r){if(r.some(function(e){return!e.ok}))throw new t("Incorrect response status");return Promise.all(r.map(function(t,r){return n.put(e[r],t)}))}).then(function(){})},Cache.prototype.add=function(e){return this.addAll([e])})}()},{}]},{},[13])(13)});
+
+
+// *** End of auto-included sw-toolbox code. ***
+
+
+
+// Runtime cache 配置转换后的 toolbox 代码.
+
+toolbox.router.get("/*", toolbox.cacheFirst, {"origin":"unpkg.com"});
+toolbox.router.get("/*", toolbox.cacheFirst, {"origin":"cdn.jsdelivr.net"});
+
+
+
+
+
+/* eslint-enable */
