@@ -26,4 +26,78 @@
 
 .icon-safari-pinned-tab:before {
     content: "\e601";
+    font-size: 19px;
+    color: rgb(217, 248, 255);
+}
+
+.icon-guifan:before {
+    content: "\e617";
+    font-size: 19px;
+    color: rgb(217, 248, 255);
+}
+
+.icon-xiewenzhang:before {
+    content: "\e645";
+    font-size: 19px;
+    color: rgb(217, 248, 255);
+}
+
+.icon-_biaoqian-:before {
+    content: "\e609";
+    font-size: 19px;
+    color: rgb(217, 248, 255);
+}
+
+.icon-_zhuye:before {
+    content: "\e60e";
+    font-size: 19px;
+    color: rgb(217, 248, 255);
+}
+
+.icon-bianchengkaifa:before {
+    content: "\e639";
+    font-size: 19px;
+    color: rgb(217, 248, 255);
+}
+
+.icon-falvfagui:before {
+    content: "\e603";
+    font-size: 19px;
+    color: rgb(217, 248, 255);
+}
+
+.icon-shiguangjix:before {
+    content: "\e635";
+    font-size: 19px;
+    color: rgb(217, 248, 255);
+}
+
+.icon-guanyu:before {
+    content: "\e60c";
+    font-size: 19px;
+    color: rgb(217, 248, 255);
+}
+
+.icon-sousuo:before {
+    content: "\e608";
+    font-size: 19px;
+    color: rgb(217, 248, 255);
+}
+
+.icon-fenlei:before {
+    content: "\e66d";
+    font-size: 19px;
+    color: rgb(217, 248, 255);
+}
+
+.icon-youqinglianjie:before {
+    content: "\e66c";
+    font-size: 19px;
+    color: rgb(217, 248, 255);
+}
+
+.icon-liebiao:before {
+    content: "\ecae";
+    font-size: 19px;
+    color: rgb(217, 248, 255);
 }
